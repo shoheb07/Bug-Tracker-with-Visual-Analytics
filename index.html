@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bug Tracker</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h1>Bug Tracker Dashboard</h1>
+
+<input id="title" placeholder="Bug title">
+
+<select id="priority">
+<option>Low</option>
+<option>Medium</option>
+<option>High</option>
+</select>
+
+<button onclick="addBug()">Add Bug</button>
+
+<table id="bugTable">
+<tr>
+<th>Title</th>
+<th>Priority</th>
+<th>Status</th>
+<th>Action</th>
+</tr>
+</table>
+
+<canvas id="chart"></canvas>
+
+<script src="script.js"></script>
+
+</body>
+</html>
